@@ -1067,6 +1067,10 @@
             },
             "H2": {
               "text-align": "center"
+            },
+            ".btn": {
+              "font-family": "'Calistoga', display",
+              "googleLink": "https://fonts.googleapis.com/css?family=Calistoga:400"
             }
           },
           "_name": "design-block",

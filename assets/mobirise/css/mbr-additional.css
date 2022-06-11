@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Calistoga:400);
+
 body {
   font-family: Rubik;
 }
@@ -1468,6 +1470,9 @@ section.lazy-placeholder:after {
 }
 .cid-LFlab4GMNf H2 {
   text-align: center;
+}
+.cid-LFlab4GMNf .btn {
+  font-family: 'Calistoga', display;
 }
 .cid-t8sT9w2rbB {
   padding-top: 5rem;
