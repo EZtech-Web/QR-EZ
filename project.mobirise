@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#005b07",
+        "#673ab7",
         "#ff0000",
         "#00ff06",
         "#001c03",
         "#001820",
-        "#000000",
-        "#007209",
-        "#268000"
+        "#000000"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -66,7 +66,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 52,
+    "uniqCompNum": 53,
     "versionPublish": "5.6.9",
     "favicon": "@PROJECT_PATH@/assets/images/logo-webqr_1.png",
     "imageResize": false,
@@ -915,6 +915,241 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            "body": {
+              "background": "#eee",
+              "margin-top": "20px"
+            },
+            ".price-tabs": {
+              "background-color": "#fff",
+              "-webkit-box-shadow": "0 5px 20px 0 rgba(39, 39, 39, 0.1)",
+              "box-shadow": "0 5px 20px 0 rgba(39, 39, 39, 0.1)",
+              "display": "inline-block",
+              "padding": "7px",
+              "border-radius": "40px",
+              "border": "1px solid @bgColor2",
+              "margin-bottom": "45px"
+            },
+            "@media (min-width: 768px)": {
+              ".price-tabs": {
+                "margin-bottom": "60px"
+              },
+              ".price-tabs .nav-link": {
+                "padding": "12px 40px"
+              },
+              ".price-item": {
+                "margin": "0 20px",
+                "padding-top": "20px"
+              },
+              ".price-item .price-top": {
+                "margin": "0 -20px",
+                "border-radius": "20px"
+              },
+              ".price-item .price-top:after": {
+                "border-radius": "0 0 20px 20px"
+              }
+            },
+            ".price-tabs .nav-link": {
+              "color": "@bgColor2",
+              "font-weight": "500",
+              "font-family": "\"Montserrat\", sans-serif",
+              "font-size": "16px",
+              "padding": "12px 35px",
+              "display": "inline-block",
+              "text-transform": "capitalize",
+              "border-radius": "40px",
+              "-webkit-transition": "all 0.3s ease",
+              "transition": "all 0.3s ease"
+            },
+            ".price-tabs .nav-link.active": {
+              "background-color": "@bgColor2",
+              "color": "#fff"
+            },
+            ".price-item": {
+              "background-color": "#fff",
+              "-webkit-box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "border-radius": "10px"
+            },
+            ".price-item .price-top": {
+              "-webkit-box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "box-shadow": "0 5px 30px 0 rgba(39, 39, 39, 0.15)",
+              "padding": "50px 0 25px",
+              "background-color": "@bgColor2",
+              "border-radius": "10px",
+              "position": "relative",
+              "z-index": "0",
+              "margin-bottom": "33px"
+            },
+            ".price-item .price-top:after": {
+              "height": "50px",
+              "width": "100%",
+              "border-radius": "0 0 10px 10px",
+              "background-color": "@bgColor2",
+              "position": "absolute",
+              "content": "''",
+              "left": "0",
+              "bottom": "-17px",
+              "z-index": "-1",
+              "-webkit-transform": "skewY(5deg)",
+              "transform": "skewY(5deg)",
+              "-webkit-box-shadow": "0 5px 10px 0 rgba(113, 113, 113, 0.15)",
+              "box-shadow": "0 5px 10px 0 rgba(113, 113, 113, 0.15)"
+            },
+            ".price-item .price-top *": {
+              "color": "#fff"
+            },
+            ".price-item .price-top h2": {
+              "font-weight": "700"
+            },
+            ".price-item .price-top h2 sup": {
+              "top": "13px",
+              "left": "-5px",
+              "font-size": "0.35em",
+              "font-weight": "500",
+              "vertical-align": "top"
+            },
+            ".price-item .price-content": {
+              "padding": "30px",
+              "padding-bottom": "40px"
+            },
+            ".price-item .price-content li": {
+              "position": "relative",
+              "margin-bottom": "15px",
+              "margin-left": "10px",
+              "margin-right": "10px",
+              "text-align": "center"
+            },
+            "@media (min-width: 992px)": {
+              ".price-item .price-content li": {
+                "padding-left": "28px",
+                "text-align": "left"
+              },
+              ".price-item .price-content li i": {
+                "position": "absolute",
+                "left": "0",
+                "top": "3px"
+              }
+            },
+            ".price-item .price-content .zmdi-check": {
+              "color": "#28a745"
+            },
+            ".price-item .price-content .zmdi-close": {
+              "color": "#f00"
+            },
+            ".popular": {
+              "background-color": "@bgColor2"
+            },
+            ".popular .price-top": {
+              "background-color": "#fff"
+            },
+            ".popular .price-top:after": {
+              "background-color": "#fff"
+            },
+            ".popular .price-top h4": {
+              "color": "#101f41"
+            },
+            ".popular .price-top h2, .popular .price-top span, .popular .price-top sup": {
+              "color": "@bgColor2"
+            },
+            ".popular .price-content ul *, .popular .price-content ul .zmdi-close, .popular .price-content ul .zmdi-check": {
+              "color": "#fff !important"
+            },
+            "H2": {
+              "text-align": "center"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section mbr-id=\"_price_one\" class=\"mbr-section pricing content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Pricing Bg Color\" name=\"bgColor2\" value=\"#005b07\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n            <div class=\"text-center\">\n                <div class=\"nav price-tabs\" role=\"tablist\">\n                    <a class=\"nav-link active\" href=\"#yearly\" role=\"tab\" data-toggle=\"tab\">Yearly</a>\n                    <a class=\"nav-link\" href=\"#monthly\" role=\"tab\" data-toggle=\"tab\">Monthly</a>\n                </div>\n              <p>Contact me on WhatsApp via +2349066849761 for you costume block or other server side code block</p>\n            </div>\n            <div class=\"tab-content wow fadeIn\" style=\"visibility: visible; animation-name: fadeIn;\">\n                <div role=\"tabpanel\" class=\"tab-pane fade show active\" id=\"yearly\">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>Personal</h4>\n                                    <h2 class=\"mb-0\"><sup>$</sup>99</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per year</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Eget erovtiu faucid</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Cras justo odio</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Morbi leo rsus</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Porta consectetur ac</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span> Vestibulum at eros</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Adipisci atque beatae</span>\n                                        </li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>Buy now</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center popular\">\n                                <div class=\"price-top\">\n                                    <h4>Business</h4>\n                                    <h2 class=\"mb-0\"><sup>$</sup>299</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per year</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Eget erovtiu faucid</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Cras justo odio</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Morbi leo risus</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Porta consectetur ac</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span> Vestibulum at eros</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Adipisci atque beatae</span>\n                                        </li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom btn-light\" mbr-text>Buy now</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>Enterprise</h4>\n                                    <h2 class=\"mb-0\"><sup>$</sup>399</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per year</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Eget erovtiu faucid</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Cras justo odio</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Morbi leo risus</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Porta consectetur ac</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span> Vestibulum at eros</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Adipisci atque beatae</span>\n                                        </li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>Buy now</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div role=\"tabpanel\" class=\"tab-pane fade\" id=\"monthly\">\n                    <div class=\"row justify-content-center\">\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>Personal</h4>\n                                    <h2 class=\"mb-0\"><sup>$</sup>29</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per month</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Eget erovtiu faucid</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Cras justo odio</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Morbi leo risus</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Porta consectetur ac</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span> Vestibulum at eros</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Adipisci atque beatae</span>\n                                        </li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>Buy now</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center popular\">\n                                <div class=\"price-top\">\n                                    <h4>Business</h4>\n                                    <h2 class=\"mb-0\"><sup>$</sup>59</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per month</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Eget erovtiu faucid</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Cras justo odio</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Morbi leo risus</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Porta consectetur ac</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span> Vestibulum at eros</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Adipisci atque beatae</span>\n                                        </li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom btn-light\" mbr-text>Buy now</a>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"col-md-12 col-lg-4 mb-30\">\n                            <div class=\"price-item text-center\">\n                                <div class=\"price-top\">\n                                    <h4>Enterprise</h4>\n                                    <h2 class=\"mb-0\"><sup>$</sup>99</h2>\n                                    <span class=\"text-capitalize\" mbr-text>per month</span>\n                                </div>\n                                <div class=\"price-content\">\n                                    <ul class=\"border-bottom mb-30 mt-md-4 pb-3 text-left\" mbr-text>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Eget erovtiu faucid</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Cras justo odio</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-check mr-2\"></i>\n                                            <span class=\"c-black\">Morbi leo risus</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Porta consectetur ac</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span> Vestibulum at eros</span>\n                                        </li>\n                                        <li>\n                                            <i class=\"zmdi zmdi-close mr-2\"></i>\n                                            <span>Adipisci atque beatae</span>\n                                        </li>\n                                    </ul>\n                                    <a href=\"#\" class=\"btn btn-custom\" mbr-text>Buy now</a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_cid": "LFlab4GMNf",
+          "_anchor": "design-block-LFlab4GMNf",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".oldcost": {
+              "text-decoration": "line-through",
+              "color": "#353535"
+            },
+            ".currentcost": {
+              "color": "#232323"
+            },
+            ".card-wrapper": {
+              "border-radius": "4px",
+              "background": "@cardsBg"
+            },
+            "@media (min-width: 992px)": {
+              ".text-box": {
+                "padding": "2rem",
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-left": "4rem",
+                  "padding-right": "2rem"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".text-box": {
+                "padding": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".text-box": {
+                "padding": "1rem"
+              }
+            },
+            ".image-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover"
+            }
+          },
+          "_name": "features7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Cost\" name=\"showCost\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardsBg\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#bed3f9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"card-wrapper\">\n            <div class=\"row align-items-center\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr.jpg\" alt=\"Mobirise Website Builder\">\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg\">\n                    <div class=\"text-box\">\n                        <h5 class=\"mbr-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                            <b>Special Offer</b>\n                        </h5>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .cost, .mbr-section-btn\">If you're wondering how to build a website, Web-QR can be the answer. Start creating your website with pre-made blocks and place your own content. Select the theme that suits you. Each theme contains a set of unique blocks.</p>\n                        <div class=\"cost\" mbr-if=\"showCost\">\n                            <span mbr-text mbr-theme-style=\"display-2\" class=\"currentcost mbr-fonts-style pr-2\" data-app-selector=\".currentcost\">$69</span>\n                            <span mbr-text mbr-theme-style=\"display-2\" class=\"oldcost mbr-fonts-style\" data-app-selector=\".oldcost\">$89</span>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"#\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8sT9w2rbB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features7-1g"
         }
       ]
     }
