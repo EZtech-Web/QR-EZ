@@ -1361,7 +1361,7 @@ section.lazy-placeholder:after {
 }
 .cid-AZngAjUFCK .price-tabs .nav-link {
   color: #005b07;
-  font-weight: 500;
+  font-weight: bolder;
   font-family: "Calistoga", sans-serif;
   font-size: 16px;
   padding: 12px 35px;
@@ -1457,12 +1457,14 @@ section.lazy-placeholder:after {
   background-color: #fff;
 }
 .cid-AZngAjUFCK .popular .price-top h4 {
-  color: #101f41;
+  color: #005b07;
+  font-weight: bolder;
 }
 .cid-AZngAjUFCK .popular .price-top h2,
 .cid-AZngAjUFCK .popular .price-top span,
 .cid-AZngAjUFCK .popular .price-top sup {
   color: #005b07;
+  font-weight: bolder;
 }
 .cid-AZngAjUFCK .popular .price-content ul *,
 .cid-AZngAjUFCK .popular .price-content ul .zmdi-close,
@@ -1476,7 +1478,7 @@ section.lazy-placeholder:after {
   font-family: 'Calistoga', display;
 }
 .cid-AZngAjUFCK H4 {
-  color: #005b07;
+  color: #101f41;
 }
 .cid-t8x6yBNJ73 {
   padding-top: 5rem;
