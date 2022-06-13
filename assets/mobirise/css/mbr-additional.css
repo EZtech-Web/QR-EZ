@@ -1316,6 +1316,51 @@ section.lazy-placeholder:after {
 .cid-Z56vIZJeGZ P {
   color: #001c03;
 }
+.cid-t8BfdSIiD1 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/mbr.jpg");
+}
+.cid-t8BfdSIiD1 h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-t8BfdSIiD1 p {
+  color: #767676;
+  text-align: left;
+  margin-bottom: 0;
+}
+.cid-t8BfdSIiD1 .card-img {
+  text-align: left;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+  width: auto;
+}
+.cid-t8BfdSIiD1 .card-img span {
+  font-size: 72px;
+  color: #ff3366;
+}
+.cid-t8BfdSIiD1 .card-box {
+  padding-left: 1rem;
+  word-break: break-word;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .cid-t8BfdSIiD1 .card-img {
+    text-align: left;
+    padding-bottom: 0.75rem;
+  }
+  .cid-t8BfdSIiD1 .card-box {
+    padding-left: 0;
+  }
+}
+.cid-t8BfdSIiD1 .card-title,
+.cid-t8BfdSIiD1 .card-img {
+  color: #ffffff;
+}
+.cid-t8BfdSIiD1 P {
+  color: #ffffff;
+}
 .cid-AZngAjUFCK {
   padding-top: 60px;
   padding-bottom: 60px;
