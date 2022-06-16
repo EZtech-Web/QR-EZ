@@ -1586,6 +1586,11 @@ section.lazy-placeholder:after {
 .cid-t8x6yBNJ73 H5 {
   color: #007003;
 }
+.cid-t8x6yBNJ73 .mbr-text,
+.cid-t8x6yBNJ73 .cost,
+.cid-t8x6yBNJ73 .mbr-section-btn {
+  color: #000b01;
+}
 .cid-t8Jtsc7JzV {
   padding-top: 2rem;
   padding-bottom: 1rem;
