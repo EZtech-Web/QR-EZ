@@ -1677,3 +1677,13 @@ section.lazy-placeholder:after {
   padding-bottom: 0px;
   background-color: #efefef;
 }
+.cid-UV4JCRzpeV {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(0deg, #001f00, #00820e);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 20;
+}
