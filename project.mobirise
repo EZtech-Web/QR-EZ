@@ -1294,7 +1294,8 @@
               "width": "100%",
               "text-align": "center",
               "color": "#ffffff",
-              "top": "100px"
+              "top": "100px",
+              "font-family": "Signika"
             },
             ".stars": {
               "position": "absolute",
@@ -1339,6 +1340,8 @@
           "_cid": "pKXtNlZq0I",
           "_anchor": "design-block-pKXtNlZq0I",
           "_sourceTheme": "mobirise4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
