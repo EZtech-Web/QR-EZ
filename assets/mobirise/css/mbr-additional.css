@@ -1591,6 +1591,81 @@ section.lazy-placeholder:after {
 .cid-t8x6yBNJ73 .mbr-section-btn {
   color: #000b01;
 }
+.cid-pKXtNlZq0I {
+  background-image: url("../../../assets/images/mbr-1.jpg");
+}
+.cid-pKXtNlZq0I .mbr-text {
+  color: #767676;
+}
+.cid-pKXtNlZq0I h4 {
+  text-align: center;
+}
+.cid-pKXtNlZq0I p {
+  text-align: center;
+}
+.cid-pKXtNlZq0I .badge {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+  margin: 0 20px 20px 20px;
+}
+.cid-pKXtNlZq0I .badge svg {
+  width: 200px;
+}
+.cid-pKXtNlZq0I .title {
+  position: absolute;
+  top: -28px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  color: #ffffff;
+}
+.cid-pKXtNlZq0I .subtitle {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  top: 100px;
+}
+.cid-pKXtNlZq0I .stars {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  top: 140px;
+}
+.cid-pKXtNlZq0I .cBadge1 .title {
+  background: #dc514e;
+}
+.cid-pKXtNlZq0I .cBadge1 .subtitle:after {
+  color: #dc514e;
+}
+.cid-pKXtNlZq0I .cBadge2 .title {
+  background: #12ca60;
+}
+.cid-pKXtNlZq0I .cBadge2 .subtitle:after {
+  color: #12ca60;
+}
+.cid-pKXtNlZq0I .cBadge3 .title {
+  background: #53a8ae;
+}
+.cid-pKXtNlZq0I .cBadge3 .subtitle:after {
+  color: #53a8ae;
+}
+.cid-pKXtNlZq0I .cBadge4 .title {
+  background: #635aa6;
+}
+.cid-pKXtNlZq0I .cBadge4 .subtitle:after {
+  color: #635aa6;
+}
+.cid-pKXtNlZq0I H1 {
+  color: #005809;
+}
+.cid-pKXtNlZq0I .mbr-text,
+.cid-pKXtNlZq0I .mbr-section-btn {
+  color: #003e1b;
+}
 .cid-t8Jtsc7JzV {
   padding-top: 2rem;
   padding-bottom: 1rem;
