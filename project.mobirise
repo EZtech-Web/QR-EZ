@@ -78,7 +78,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "p2psbql6wd",
+    "mbrsiteDomain": "pln8rg8lis",
     "witsec-white-label": true,
     "witsec-mailform": true,
     "witsec-language": false,
@@ -993,9 +993,9 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
+            "padding-top": "60px",
+            "padding-bottom": "60px",
+            "background-color": "#efefef",
             ".mbr-section": {
               "text-align": "center",
               "color": "#fff"
@@ -1146,8 +1146,7 @@
               "text-align": "center"
             },
             ".btn": {
-              "font-family": "'Calistoga', display",
-              "googleLink": "https://fonts.googleapis.com/css?family=Calistoga:400"
+              "font-family": "'Calistoga', display"
             },
             "H4": {
               "color": "#101f41"
@@ -1164,6 +1163,8 @@
           "_cid": "AZngAjUFCK",
           "_anchor": "PricingPlansTRAINING_QR-WEB",
           "_sourceTheme": "mobirise4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
