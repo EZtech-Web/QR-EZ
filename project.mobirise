@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "QR-WEB",
+    "name": "QR-EZ",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -73,12 +73,12 @@
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\nAllow: /\nDisallow: /cgi-bin\n\nSitemap: https://www.qr-web.net/sitemap.xml\n",
     "sitemapSwitcher": true,
-    "siteUrl": "https://www.QR-WEB.Net",
+    "siteUrl": "https://www.QR-EZ.Net",
     "sitemapSwitcherAuto": "on",
     "cookiesAlert": false,
     "gdpr": false,
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "fnoi8cyf0n",
+    "mbrsiteDomain": "p2psbql6wd",
     "witsec-white-label": true,
     "witsec-mailform": true,
     "witsec-language": false,
@@ -119,8 +119,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "QR-WEB.Net",
-        "meta_descr": "QR-WEB | QR-WEBSITE | QR-CODE",
+        "title": "QR-EZ.Net",
+        "meta_descr": "QR-EZ | QR-WEB | QR-WEBSITE | QR-CODE",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
