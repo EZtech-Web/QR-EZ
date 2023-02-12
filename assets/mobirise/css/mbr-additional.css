@@ -1167,7 +1167,7 @@ section.lazy-placeholder:after {
 .cid-t8hjQwoCQs {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/mbr.png");
+  background-image: url("../../../assets/images/mbr.png") !important;
 }
 .cid-t8hjQwoCQs .mbr-fallback-image.disabled {
   display: none;
