@@ -1,0 +1,28 @@
+@font-face {
+   font-family: 'Philosopher';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///D:/%7BPROJECT%7D%20%7BCUSTOMER%7D/EZtech%20Triple-O/ZW%20QR-WEB.Project/QR-EZ/fonts/Philosopher/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Philosopher';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///D:/%7BPROJECT%7D%20%7BCUSTOMER%7D/EZtech%20Triple-O/ZW%20QR-WEB.Project/QR-EZ/fonts/Philosopher/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Philosopher';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///D:/%7BPROJECT%7D%20%7BCUSTOMER%7D/EZtech%20Triple-O/ZW%20QR-WEB.Project/QR-EZ/fonts/Philosopher/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Philosopher';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///D:/%7BPROJECT%7D%20%7BCUSTOMER%7D/EZtech%20Triple-O/ZW%20QR-WEB.Project/QR-EZ/fonts/Philosopher/700italic.ttf') format('truetype');
+}
