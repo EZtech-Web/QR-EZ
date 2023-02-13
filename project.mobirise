@@ -715,6 +715,9 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
             ".mbr-fallback-image": {
               "display": "block",
               "background-size": "cover",
