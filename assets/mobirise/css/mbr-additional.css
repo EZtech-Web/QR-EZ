@@ -1223,10 +1223,8 @@ section.lazy-placeholder:after {
 .cid-t8hjQwoCQs .icon-text {
   color: #001d0a;
 }
-.cid-t8hjQwoCQs .cid-t8hjQwoCQs {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/mbr.png") !important;
+.cid-t8hjQwoCQs .bg-test {
+  background-image: url(file:///D:/%7BPROJECT%7D%20%7BCUSTOMER%7D/EZtech%20Triple-O/ZW%20QR-WEB.Project/QR-EZ/assets/images/mbr.png) !important;
 }
 .cid-Z56vIZJeGZ {
   padding-top: 60px;
