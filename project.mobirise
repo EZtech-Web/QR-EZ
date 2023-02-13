@@ -713,7 +713,7 @@
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+              "background-image": "url(@bg-value) !important"
             },
             ".mbr-fallback-image.disabled": {
               "display": "none"
