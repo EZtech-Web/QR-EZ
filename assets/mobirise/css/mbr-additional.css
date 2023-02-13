@@ -1538,7 +1538,8 @@ section.lazy-placeholder:after {
 .cid-t8x6yBNJ73 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/background1.jpg");
+  background-image: url("https://www.qr-ez.net/assets/images/background1.jpg") !important;
+  background-attachment: fixed;
 }
 .cid-t8x6yBNJ73 .mbr-fallback-image.disabled {
   display: none;
@@ -1594,7 +1595,8 @@ section.lazy-placeholder:after {
 .cid-pKXtNlZq0I {
   padding-top: 45px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/mbr-1.jpg");
+  background-image: url("https://www.qr-ez.net/assets/images/mbr-1.jpg") !important;
+  background-attachment: fixed;
 }
 .cid-pKXtNlZq0I .mbr-text {
   color: #767676;
