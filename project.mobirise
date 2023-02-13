@@ -115,7 +115,7 @@
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-YRVH8MVN27\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-YRVH8MVN27');\n</script>\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-232340244-1\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-232340244-1');\n</script>",
     "global_after_body": "",
     "publishEditFolder": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
@@ -769,6 +769,11 @@
             },
             ".icon-text": {
               "color": "#001d0a"
+            },
+            ".cid-t8hjQwoCQs": {
+              "padding-top": "6rem",
+              "padding-bottom": "6rem",
+              "background-image": "url(\"../../../assets/images/mbr.png\") !important"
             }
           },
           "_name": "features13",
